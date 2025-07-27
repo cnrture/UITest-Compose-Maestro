@@ -1,0 +1,6 @@
+# home_displays_notes
+
+- launchApp:
+    appId: "com.cnrture.uitestcomposemaestro"
+- assertVisible:
+    id: "note_title0"

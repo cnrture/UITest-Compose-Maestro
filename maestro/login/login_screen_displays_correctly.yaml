@@ -1,0 +1,12 @@
+# login_screen_displays_correctly
+
+- launchApp:
+    appId: "com.cnrture.uitestcomposemaestro"
+- assertVisible:
+    id: "welcomeText"
+- assertVisible:
+    id: "usernameField"
+- assertVisible:
+    id: "passwordField"
+- assertVisible:
+    id: "loginButton"

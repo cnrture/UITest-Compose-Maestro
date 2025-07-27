@@ -1,0 +1,20 @@
+# home_displays_last_note_details_on_click
+
+- launchApp:
+    appId: "com.cnrture.uitestcomposemaestro"
+- scrollUntilVisible:
+    element:
+      id: "note_title99"
+    direction: DOWN
+    timeout: 20000
+    speed: 40
+    visibilityPercentage: 100
+    centerElement: false
+- tapOn:
+    id: "note_title99"
+- assertVisible:
+    id: "note_detail_title"
+- assertVisible:
+    id: "note_detail_content"
+- assertVisible:
+    id: "note_detail_close_button"

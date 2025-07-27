@@ -1,0 +1,17 @@
+# login_button_enabled_state
+
+appId: "com.cnrture.uitestcomposemaestro"
+---
+- launchApp
+- assertVisible:
+    id: "loginButton"
+    enabled: false
+- tapOn:
+    id: "usernameField"
+- inputText: "test"
+- tapOn:
+    id: "passwordField"
+- inputText: "password"
+- assertVisible:
+    id: "loginButton"
+    enabled: true

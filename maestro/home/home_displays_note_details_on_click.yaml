@@ -1,0 +1,12 @@
+# home_displays_note_details_on_click
+
+- launchApp:
+    appId: "com.cnrture.uitestcomposemaestro"
+- tapOn:
+    id: "note_title0"
+- assertVisible:
+    id: "note_detail_title"
+- assertVisible:
+    id: "note_detail_content"
+- assertVisible:
+    id: "note_detail_close_button"
