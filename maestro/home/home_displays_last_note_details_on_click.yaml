@@ -1,7 +1,8 @@
 # home_displays_last_note_details_on_click
 
-- launchApp:
-    appId: "com.cnrture.uitestcomposemaestro"
+appId: com.cnrture.uitestcomposemaestro
+---
+- launchApp
 - scrollUntilVisible:
     element:
       id: "note_title99"

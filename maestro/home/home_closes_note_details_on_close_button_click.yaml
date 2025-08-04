@@ -1,7 +1,8 @@
 # home_closes_note_details_on_close_button_click
 
-- launchApp:
-    appId: "com.cnrture.uitestcomposemaestro"
+appId: com.cnrture.uitestcomposemaestro
+---
+- launchApp
 - tapOn:
     id: "note_title0"
 - tapOn:

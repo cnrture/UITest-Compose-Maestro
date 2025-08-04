@@ -1,6 +1,6 @@
 # login_button_enabled_state
 
-appId: "com.cnrture.uitestcomposemaestro"
+appId: com.cnrture.uitestcomposemaestro
 ---
 - launchApp
 - assertVisible:

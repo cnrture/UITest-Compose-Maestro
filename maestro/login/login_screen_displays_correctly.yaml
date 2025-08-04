@@ -1,7 +1,8 @@
 # login_screen_displays_correctly
 
-- launchApp:
-    appId: "com.cnrture.uitestcomposemaestro"
+appId: com.cnrture.uitestcomposemaestro
+---
+- launchApp
 - assertVisible:
     id: "welcomeText"
 - assertVisible:
