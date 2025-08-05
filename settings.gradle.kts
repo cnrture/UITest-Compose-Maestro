@@ -23,5 +23,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "UITest-Compose-Maestro"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
  

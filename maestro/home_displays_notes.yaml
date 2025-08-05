@@ -3,5 +3,6 @@
 appId: "com.cnrture.uitestcomposemaestro"
 ---
 - launchApp
+- runFlow: login_button_valid_credentials.yaml
 - assertVisible:
     id: "note_title0"

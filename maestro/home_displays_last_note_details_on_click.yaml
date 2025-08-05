@@ -3,6 +3,7 @@
 appId: com.cnrture.uitestcomposemaestro
 ---
 - launchApp
+- runFlow: login_button_valid_credentials.yaml
 - scrollUntilVisible:
     element:
       id: "note_title99"
